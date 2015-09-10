@@ -1,0 +1,53 @@
+body {
+  background-image: url("resume-bg.jpg");
+  display: block;
+  font-family: Calibri;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+#container {
+  width: 800px;
+  margin: 40px auto 60px;
+}
+
+#contact-info p {
+  margin: 0;
+}
+
+#objective {
+  font-style: italic;
+}
+
+#education {
+  margin-top: 20px;
+}
+
+h4 {
+  display: inline;
+  margin-bottom: 0px;
+}
+
+span {
+  float: right;
+}
+
+#education p {
+  margin: 0;
+}
+
+#experience p {
+  margin: 0;
+}
