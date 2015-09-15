@@ -1,2 +1,2 @@
 $( "#profile-pic" ).hide();
-$( "#profile-pic" ).fadeIn( 1500 );
+$( "#profile-pic" ).fadeIn( 2000 );
