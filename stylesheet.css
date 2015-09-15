@@ -27,6 +27,12 @@ ul {
   margin: 0;
 }
 
+img {
+  float: right;
+  border-radius: 10%;
+  margin-top: -100px;
+}
+
 #objective {
   font-style: italic;
 }
