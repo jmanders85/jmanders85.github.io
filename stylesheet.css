@@ -35,6 +35,7 @@ img {
 
 #objective {
   font-style: italic;
+  max-width: 650px;
 }
 
 #education {
