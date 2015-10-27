@@ -1,12 +1,15 @@
 body {
-  background-image: url("resume-bg.jpg");
+  /* background-image: url("resume-bg.jpg"); */
+  background: linear-gradient(20deg, white, silver, #fce9b8, silver, white);
   display: block;
-  font-family: Calibri;
+  font-family: serif;
   font-size: 18px;
 }
 
 h1 {
   text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid black;
 }
 
 h2 {
@@ -18,37 +21,66 @@ ul {
   margin-top: 0;
 }
 
-#container {
+main {
+  background: linear-gradient(200deg, white, silver, white, silver, white);
   width: 800px;
   margin: 40px auto 60px;
+  padding: 0 10px 4px 10px;
+  border-radius: 10px;
 }
 
-#contact-info p {
-  margin: 0;
+header p {
+  margin: 0 0 0 25px;
 }
 
-img {
+header i {
+  float: left;
+}
+
+figure img {
   float: right;
   border-radius: 10%;
-  margin-top: -100px;
+  margin-top: -95px;
+  margin-right: -38px;
 }
 
-#objective {
-  font-style: italic;
-  max-width: 550px;
+aside {
+  max-width: 530px;
+  padding: 5px 0;
+}
+
+#skills h2 {
+  margin-top: 2px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 
 #education {
   margin-top: 20px;
 }
 
-h4 {
+#education h1, #experience h1 {
+  font-size: 28px;
+  text-align: left;
+  padding-left: 0px;
+  border-bottom: none;
+  margin-bottom: 4px;
+}
+
+#education h2, #experience h2 {
   display: inline;
   margin-bottom: 0px;
+  font-size: 18px;
+  padding-bottom: 0px;
 }
 
 span {
   float: right;
+}
+
+.city {
+  border-top: 1px solid black;
+  padding: 5px 0 0 0;
 }
 
 #education p {
